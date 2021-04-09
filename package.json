@@ -1,0 +1,20 @@
+{
+  "name": "RTFM-Bot",
+  "version": "0.0.1",
+  "description": "Fallout Who (Vegas) 'Read The Fucking Manual' bot.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/DiscordBot.js"
+  },
+  "dependencies": {
+    "discord.js": "monbrey/discord.js#inline-replies",
+    "discord.js-commando": "discordjs/discord.js-commando",
+    "node-fetch": "^2.6.0",
+    "path": "0.12.7",
+    "request": "^2.88.2",
+    "request-promise": "^4.2.5"
+  },
+  "engines": {
+    "node": "12.0.0"
+  }
+}
